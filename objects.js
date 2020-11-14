@@ -1,5 +1,5 @@
-var playlist = { key: "value" }
+var playlist = { LilDurk: "Chiraqimony" }
 
-function updatePlaylist(obj, key, value) {
-  return Object.assign({playlist}, obj, { [key]: value})
+function updatePlaylist(playlist, artistName, songTitle) {
+  return Object.assign({}, playlist, { [artistName]: songTitle})
 }
